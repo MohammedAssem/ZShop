@@ -1,0 +1,33 @@
+<mat-table class="lessons-table mat-elevation-z8" [dataSource]="categories">
+
+  <ng-container matColumnDef="id">
+      <div *matHeaderCellDef>#</div>
+      <div *matCellDef="let category">{{category.id}}</div>
+  </ng-container>
+
+  <ng-container matColumnDef="name">
+    <div *matHeaderCellDef>Name</div>
+    <div class="duration-cell"
+              *matCellDef="let category">{{category.name}}</div>
+</ng-container>
+
+<ng-container matColumnDef="desctiption">
+      <div *matHeaderCellDef>Description</div>
+      <div class="description-cell"
+                *matCellDef="let category">{{category.desctiption}}</div>
+  </ng-container>
+
+  <ng-container matColumnDef="navigate">
+    <div *matHeaderCellDef>Navigate</div>
+    <div class="description-cell"
+              *matCellDef="let category">
+
+            <a routerLink="/admin/category/{{category.id}}"> {{category.name}} </a>
+            </div>
+</ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+
+<mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+
+</mat-table>

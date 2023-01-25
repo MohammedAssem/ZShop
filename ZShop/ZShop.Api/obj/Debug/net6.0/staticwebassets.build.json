@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rNME3hDVRgE4kHJPJzwrahBpJh9pObiFyhmt2/hNhwM=",
+  "Source": "ZShop.Api",
+  "BasePath": "_content/ZShop.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,38 @@
+
+<a mat-fab routerLink="/admin/brands/new">
+    <mat-icon class="mat-18">bookmark_add</mat-icon>
+</a>
+
+<mat-table class="lessons-table mat-elevation-z8" [dataSource]="brands">
+
+  <ng-container matColumnDef="id">
+      <div *matHeaderCellDef>#</div>
+      <div *matCellDef="let brand">{{brand.id}}</div>
+  </ng-container>
+
+  <ng-container matColumnDef="name">
+    <div *matHeaderCellDef>Name</div>
+    <div class="duration-cell"
+              *matCellDef="let brand">{{brand.name}}</div>
+</ng-container>
+
+<ng-container matColumnDef="description">
+      <div *matHeaderCellDef>Description</div>
+      <div class="description-cell"
+                *matCellDef="let brand">{{brand.description}}</div>
+  </ng-container>
+
+  <ng-container matColumnDef="navigate">
+    <div *matHeaderCellDef>Navigate</div>
+    <div class="description-cell"
+              *matCellDef="let brand">
+
+            <a routerLink="/admin/brand/{{brand.id}}"> {{brand.name}} </a>
+            </div>
+</ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+
+<mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+
+</mat-table>

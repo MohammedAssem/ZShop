@@ -1,0 +1,41 @@
+<div class="container">
+
+
+
+  <form id="brandfrm" [formGroup]="brandfrm"  (ngSubmit)="submitMethod()">
+    <div>
+      <div class="form-group">
+        <label for="Brandname">Brand Name</label>
+        <input type="text" class="form-control" id="Brandname"
+        aria-describedby="BrandnameHelp" formControlName="name" name="name" placeholder="Brand name" required>
+        <small id="BrandnameHelp" class="form-text text-muted">Please enter Brand name .</small>
+        <div class="danger">
+
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="Branddesc">Brand Description</label>
+        <textarea class="form-control" id="Branddesc"
+        aria-describedby="BranddescHelp" formControlName="description" name="description"
+        placeholder="Brand name"></textarea>
+        <small id="BranddescHelp" class="form-text text-muted">Please enter Brand Description .</small>
+        <div class="danger">
+
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="Brand Image URL"></label>
+        <input type="text" class="form-control" name="imageUrl" id="imageUrl"
+        aria-describedby="ImageUrl" placeholder="Image URL" formControlName="imageUrl">
+        <small id="productpriceHelp" class="form-text text-muted">Please enter Brand Image Url .</small>
+        <div class="danger">
+
+        </div>
+      </div>
+
+      <button type="submit"   class="btn btn-primary" >Submit</button>
+    </div>
+  </form>
+</div>

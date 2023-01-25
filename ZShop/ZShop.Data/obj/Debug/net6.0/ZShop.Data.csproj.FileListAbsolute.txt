@@ -1,0 +1,14 @@
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\bin\Debug\net6.0\ZShop.Data.deps.json
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\bin\Debug\net6.0\ZShop.Data.dll
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\bin\Debug\net6.0\ZShop.Data.pdb
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ZShop.Data.csproj.AssemblyReference.cache
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ZShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ZShop.Data.AssemblyInfoInputs.cache
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ZShop.Data.AssemblyInfo.cs
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ZShop.Data.csproj.CoreCompileInputs.cache
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ZShop.Data.dll
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\refint\ZShop.Data.dll
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ZShop.Data.pdb
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ref\ZShop.Data.dll
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\bin\Debug\net6.0\ZShop.Data.runtimeconfig.json
+D:\CourssFullStack\ITShare -ASP.NET\2022-02-18\2022-02-18\ZShop\ZShop.Data\obj\Debug\net6.0\ZShop.Data.genruntimeconfig.cache
